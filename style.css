@@ -3,9 +3,9 @@
     color:red;
 } */
 
-h1,span,a{
+/* h1,span,a{
     color: aqua;
-}
+} */
 
 /* child selector--> it selects only the child p elements
 span > p {
@@ -13,6 +13,18 @@ span > p {
 } */
 
 /* indecent selector --> it selects all the p tags inside span tg */
-span p {
+/* span p {
     background-color: blueviolet;
+} */
+
+
+/* adjacent selector --> it selects adjacent sibling of h1 */
+/* h1+p{
+    color: crimson;
+} */
+
+/* general sibling selector--> selects all the siblings */
+
+h1~p{
+    color:aqua
 }
