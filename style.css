@@ -1,13 +1,32 @@
-.container{
+body{
     border: 2px solid black;
+    height: 900px;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+#first{
+    background-color: rgb(0, 255, 13);
+    /* position: relative; --> it moves according to the actual position of the element */
+    /* position: absolute;it moves according to the size of the screen */
+    width: initial;
+     position: sticky; /*element sticks at the given position */
+    top:100px;
+    
+    /* position: fixed;
+    right: 0;
+    /* bottom: 0; *//*It sticks at a perticular position*/
+
+    
+}
+#second{
+    background-color: rgb(229, 255, 0);
+    
+    
 }
 
-.container > div {
-    border: 2px solid green;
-    display: inline;/*to convert block elements to inline*/
-}
-
-.container > span {
-    border: 2px solid green;
-    display: block;/*to convert inline elements to block*/
-}
+#third{
+    background-color: brown;
+    
+} 
