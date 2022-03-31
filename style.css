@@ -1,30 +1,28 @@
+p{
+    color: whitesmoke;
 
-/* a[href="Instagaram"]{
-    color:red;
-} */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
 
-/* h1,span,a{
-    color: aqua;
-} */
+    text-align: justify;
+    text-transform: capitalize;
+    /* text-indent: 20%; --> gives space of 20% screen in the first line of the paragraph*/
+    line-height: 20px; /* space b/w the lines*/
+    letter-spacing: 2px; ; /* space b/w each letter */
+    word-spacing: 5px; /* space b/w each word */
+}
 
-/* child selector--> it selects only the child p elements
-span > p {
-    background-color: blueviolet;
-} */
+h1{
+    color: white;
+    text-shadow: 5px 5px rgb(163, 156, 156); /*x-axis, y-axis, color */
+}
 
-/* indecent selector --> it selects all the p tags inside span tg */
-/* span p {
-    background-color: blueviolet;
-} */
-
-
-/* adjacent selector --> it selects adjacent sibling of h1 */
-/* h1+p{
-    color: crimson;
-} */
-
-/* general sibling selector--> selects all the siblings */
-
-h1~p{
-    color:aqua
+body {
+    background-image: url('/photo-1.avif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px 10px; /* x-axis, y-axis*/
 }
