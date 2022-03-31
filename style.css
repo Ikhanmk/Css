@@ -1,21 +1,13 @@
-div{
-    width: 100px;
-    height: 100px;
+.container{
+    border: 2px solid black;
 }
 
-#first{
-    background-color: aqua;
-    float: left;
-    height: 650px;;
-}
-#second{
-    background-color: blue;
-    float: right;
-    height: 570px;
+.container > div {
+    border: 2px solid green;
+    display: inline;/*to convert block elements to inline*/
 }
 
-#third{
-    width: 100%;
-    background-color: brown;
-    clear: both;
+.container > span {
+    border: 2px solid green;
+    display: block;/*to convert inline elements to block*/
 }
