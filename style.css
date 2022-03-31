@@ -7,8 +7,12 @@ h1,span,a{
     color: aqua;
 }
 
-/* child selector--> it selects only the child p elements*/
+/* child selector--> it selects only the child p elements
 span > p {
     background-color: blueviolet;
-}
+} */
 
+/* indecent selector --> it selects all the p tags inside span tg */
+span p {
+    background-color: blueviolet;
+}
