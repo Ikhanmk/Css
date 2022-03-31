@@ -1,32 +1,60 @@
-body {
-    font-size: large;
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: rgb(231, 95, 140);
+    padding: 50px;
+}
+
+header > a {
     color: white;
-    background-color: rgb(30, 60, 71);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10px 10px; /* x-axis, y-axis*/
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 20px;
 }
 
-div{
-    /*border width, type, color*/
-    border: 5px solid black;
-    
-    /* padding: 20px; --> applies to all sides
-    padding: 20px 20px; --> top-bottom right-left
-    padding: 20px 20px 20px 20px; --> top right bottom left*/
+header > a:hover{
+    color: black;
+}
+
+section{
+    border: 2px solid black;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    background-color: rgb(243, 229, 231);
+    text-align: center;
     padding: 20px;
-
-    /* margin: 20px; --> applies to all sides
-    margin: 20px 20px; --> top-bottom right-left
-    margin: 20px 20px 20px 20px; --> top right bottom left */
-    margin: 10px;
-
-    width: 200px;
-    height: 200px;
-    overflow: auto;
-
-    
-
-
 }
+
+section>h1{
+    font-size: 40px;
+    color: black;
+    border: 2px solid green;
+}
+
+section>img {
+    padding: 40px 0;
+    width: 500px;
+}
+
+footer{
+    border: 2px solid black;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer>a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: large;
+    
+}
+
