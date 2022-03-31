@@ -1,15 +1,32 @@
 body {
-    
-    background-color: rgb(236, 236, 211);
+    font-size: large;
+    color: white;
+    background-color: rgb(30, 60, 71);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10px 10px; /* x-axis, y-axis*/
 }
 
-ul{
-    list-style-type: decimal;
-    list-style-position: outside;
+div{
+    /*border width, type, color*/
+    border: 5px solid black;
     
-     /* list-style: circle outside url();  short hand*/
+    /* padding: 20px; --> applies to all sides
+    padding: 20px 20px; --> top-bottom right-left
+    padding: 20px 20px 20px 20px; --> top right bottom left*/
+    padding: 20px;
+
+    /* margin: 20px; --> applies to all sides
+    margin: 20px 20px; --> top-bottom right-left
+    margin: 20px 20px 20px 20px; --> top right bottom left */
+    margin: 10px;
+
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+
+    
+
+
 }
