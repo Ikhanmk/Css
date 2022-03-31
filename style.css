@@ -1,60 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-
-header{
-    background-color: rgb(231, 95, 140);
-    padding: 50px;
-}
-
-header > a {
-    color: white;
-    text-decoration: none;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0px 20px;
-}
-
-header > a:hover{
-    color: black;
-}
-
-section{
-    border: 2px solid black;
-    height: 400px;
-    width: 800px;
-    margin: auto;
-    background-color: rgb(243, 229, 231);
-    text-align: center;
-    padding: 20px;
-}
-
-section>h1{
-    font-size: 40px;
-    color: black;
-    border: 2px solid green;
-}
-
-section>img {
-    padding: 40px 0;
-    width: 500px;
-}
-
-footer{
-    border: 2px solid black;
+div{
+    width: 100px;
     height: 100px;
-    background-color: black;
-    text-align: center;
-    padding: 30px 0;
 }
 
-footer>a{
-    text-decoration: none;
-    color: cornsilk;
-    font-size: large;
-    
+#first{
+    background-color: aqua;
+    float: left;
+    height: 650px;;
+}
+#second{
+    background-color: blue;
+    float: right;
+    height: 570px;
 }
 
+#third{
+    width: 100%;
+    background-color: brown;
+    clear: both;
+}
