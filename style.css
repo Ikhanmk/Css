@@ -17,9 +17,18 @@ p{
 h1{
     color: white;
     text-shadow: 5px 5px rgb(163, 156, 156); /*x-axis, y-axis, color */
+    /* font-size: 2em; 200%=2em 2 times more of the parent element i.e, body whose default size is 16px*/
+
+    /*font-size: 2rem; it takes the reference of root element that is html tag whose default size is 16px*/
+
+    /*font-size: 10vw or 10 vh; --> it is the 10% of screen height or width*/
+
+    /*font-size: 10vmin or 10vmax; --> vmin checks the size of height and width of the screen and takes the 10% of minimum value.  vmax checks the size of height and width of the screen and takes the 10% of maximum value.*/
+
 }
 
 body {
+    
     background-image: url('/photo-1.avif');
     background-attachment: fixed;
     background-repeat: no-repeat;
