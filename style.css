@@ -1,3 +1,14 @@
-a[href="Instagaram"]{
+
+/* a[href="Instagaram"]{
     color:red;
+} */
+
+h1,span,a{
+    color: aqua;
 }
+
+/* child selector--> it selects only the child p elements*/
+span > p {
+    background-color: blueviolet;
+}
+
