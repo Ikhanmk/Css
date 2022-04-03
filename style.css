@@ -1,44 +1,24 @@
-form{
-    max-width: 800px;
-    background-color: rgb(138, 138, 132);
-    margin: auto;
-    padding: 10px;
-    font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    font-size: x-large;
+    border: 2px solid salmon;
 }
 
-form>div{
-    margin: 10px auto;
-    width: 700px;
+body{
+    display: flex;
+    margin: 0;
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid green;
+    justify-content: space-evenly;
+    /* space around, space between, space evenly.  justify content works in horizontal direction */
+
+    /* align-items: center; it works in vertical direction */
 
 }
 
-h1{
-    text-align: center;
-}
-
-input[type="text" ],
-input[type="email" ],
-input[type="number" ],
-input[type="password" ],
-select,
-textarea{
-    padding: 5px;
-    width: 80%;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-}
-
-input[type = "submit"]{
-    width: 200px;
-    padding: 10px;
-    font-size: large;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: block;
-    margin: 20px auto;
-    background-color: crimson;
-    color: rgba(194, 178, 178, 0.89);
-    border-radius: 20px;
-}
+/* .two{
+    align-self: center;
+} */
